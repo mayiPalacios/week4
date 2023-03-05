@@ -1,14 +1,10 @@
 import React from "react";
-
+import Header from "./header";
 const Navbar = () => {
 
     return (
-         <header>
-              <div className="container__logo">
-        <img src="https://www.diurnay.com/media/2015/09/blanco-sony-logo.png" alt="" />
-      </div>
-
-      <div className="form__header">
+            <nav>
+            <div className="form__header">
         <div className="inpt__wrapper">
           <input type="text" placeholder="Search" id="inpt__search" />
           <svg
@@ -25,7 +21,8 @@ const Navbar = () => {
           </svg>
         </div>
       </div>
-         </header>
+            </nav>
+        
 
     );
 

@@ -14,13 +14,14 @@ const MainHome = () =>{
                     <img id="img__icon--moment" src="https://image.api.playstation.com/pr/bam-art/154/121/a9e953b7-7a3e-4d06-a621-e2dee266faa7.png?w=620&thumb=false" />
                 </div>
             </section>
-           
+
             <div>
             <Fragment>
                 <CardFeatures/>
              <CardGenerals/>
             </Fragment>
             </div>
+            
          </main>
 
       );
