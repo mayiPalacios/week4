@@ -1,0 +1,53 @@
+
+.card__general--img{
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 15vw;
+    height: 30vh;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    
+}
+
+.card__general{
+    width: 15vw;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    span{
+        padding-left: 28px;
+        font-size: 1.3em;
+        font-family: "SST",helvetica,arial,sans-serif;
+    }
+}
+
+
+
+
+/*    feature    */
+
+.card__feature{
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1.5rem;
+    overflow: hidden;
+    width: 18vw;
+    height: 40vh;
+    img:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    img{
+        opacity: 0.96;
+        height: 100%;
+        width: 100%;
+    }
+    
+}
