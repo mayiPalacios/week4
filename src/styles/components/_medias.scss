@@ -1,0 +1,60 @@
+@media (max-width:1108px) {
+    body{
+        background-image: none;
+    }
+    .main__game {
+        background-color: red;
+    }
+
+   #img__post--games {
+        width: 90vw;
+   }
+ 
+   .div__info--post {
+    width: 40vw;
+    margin-left: 200px;
+   }
+ 
+   .container__section--comments { 
+    width: 70%;
+   }
+   .lineSpecialties::after {
+    width: 40vw;
+    right: -42vw;
+   }
+
+
+}
+
+@media (max-width:1000px) {
+  .main__game {
+        background-color: pink;
+    }
+     #img__post--games {
+        width: 90vw;
+   }
+ 
+   .div__info--post {
+    width: 40vw;
+    margin-left: 200px;
+   }
+
+  .lineSpecialties::after {
+    width: 30vw;
+    right: -35vw;
+   }
+   .container__title--comments {
+
+    h2 {
+        padding-left: 50px;
+    }
+}
+
+
+}
+
+@media (max-width:700px) {
+    .main__game {
+        background-color: purple;
+    }
+}

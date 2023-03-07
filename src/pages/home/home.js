@@ -4,18 +4,15 @@ import Footer from "../../components/layout/footer";
 import Navbar from "../../components/layout/navbar";
 import MainHome from "../../components/layout/mainHome";
 import Header from "../../components/layout/header";
-class  Home extends React.Component {
-     
-    render() {
-        return (
-          <Fragment>
-            <Header />
-              <Navbar/>
-              <MainHome/>
-              <Footer/>
-          </Fragment>
-        );
-      }
- }
+const Home = ({ setRoute }) => {
+  return (
+    <Fragment>
+      <Header />
+      <Navbar />
+      <MainHome setRoute={setRoute} />
+      <Footer />
+    </Fragment>
+  );
+};
 
 export default Home;
