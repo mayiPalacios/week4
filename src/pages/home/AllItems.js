@@ -4,16 +4,17 @@ import Footer from "../../components/layout/footer";
 import Navbar from "../../components/layout/navbar";
 import MainGame from "../../components/layout/mainGame";
 import Header from "../../components/layout/header";
-class Game extends React.Component {
-  render() {
-    return (
-      <Fragment>
-        <Header />
-        <MainGame />
-        <Footer />
-      </Fragment>
-    );
-  }
-}
+import AllCards from "../../components/cards/allCards";
 
-export default Game;
+const AllItems = () => {
+  return (
+    <Fragment>
+      <Header />
+      <Navbar />
+      <AllCards />
+      <Footer />
+    </Fragment>
+  );
+};
+
+export default AllItems;
