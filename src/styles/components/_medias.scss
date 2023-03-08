@@ -1,18 +1,45 @@
+
+@media (max-width:1500px) {
+
+    /* start  file games      */
+ .main__game {
+        background-color: orange;
+    }
+ #img__post--games {
+       height: 80vh;
+        width: 90vw;
+   }
+
+.div__info--post {
+    width: 30vw;
+    margin-left: 300px;
+   }
+/*   AllItems file    */
+
+
+ }
+
+
 @media (max-width:1108px) {
+    body{
+     background-color: red;
+  }
     body{
         background-image: none;
     }
+      /* start  file games      */
     .main__game {
         background-color: red;
     }
 
    #img__post--games {
+    height: 70vh;
         width: 90vw;
    }
  
    .div__info--post {
     width: 40vw;
-    margin-left: 200px;
+    margin-left: 100px;
    }
  
    .container__section--comments { 
@@ -22,21 +49,66 @@
     width: 40vw;
     right: -42vw;
    }
+/*   AllItems file    */
+
+.card__all{ 
+   width: 20vw;
+}
+
+.card__all--img{
+    width: 20vw;
+ }
+
+/*    home file        */
+
+
+ .card__center--space{
+    margin-left: 1.9vw;
+}
+.container_card--feature {
+    padding-left: 4vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__before--general{
+     width: 12vw;
+     height: 4vh;
+    
+}
+
+.btn__after--general{
+    width: 12vw;
+    height: 4vh;
+    
+}
+
+.card__feature{ 
+    width: 25vw;
+    height: 30vh;
+    margin: 0.5rem;
+}
 
 
 }
 
 @media (max-width:1000px) {
+body{
+     background-color: pink;
+     width: 100%;
+  }
+  /* start   games  file    */
   .main__game {
         background-color: pink;
     }
      #img__post--games {
         width: 90vw;
+        height: 60vh;
    }
  
    .div__info--post {
     width: 40vw;
-    margin-left: 200px;
+    margin-left: 100px;
    }
 
   .lineSpecialties::after {
@@ -49,12 +121,211 @@
         padding-left: 50px;
     }
 }
+/*   AllItems file    */
 
+.container__all--items{ 
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container_all--card{
+    width: 90%;
+ }
+
+.card__all{ 
+   width: 30vw;
+}
+
+.card__all--img{
+    width: 30vw;
+ }
+
+ /* home file    */
+
+.container_card--general { 
+    height: 100vh;
+    max-height: 120vh;
+    
+ 
+     h1 {
+        padding-right: 50vw;
+        color: #363636;
+    }
+ 
 
 }
 
+.container__general--items {
+    width: 100%;
+   gap: 140px;
+   margin-bottom: 5vh;
+ }
+
+.card__general--img{ 
+    width: 25vw;
+    height: 25vh;
+}
+
+.card__general{
+     
+     button{
+         height: 25vh;
+        width: 30vw;
+      
+    }
+}
+
+.btn__before--general{
+     width: 10vw;
+     height: 4vh;
+    
+}
+
+.btn__after--general{
+    width: 10vw;
+    height: 4vh;
+    
+}
+
+.container_card--feature { 
+    width: 100%;
+}
+
+.card__feature{ 
+    width: 25vw;
+    height: 30vh;
+    margin: 0.5rem;
+}
+
+.container_card--feature {
+    padding-left: 0;
+    justify-content: center;
+}
+
+#img__icon--moment {
+    padding-left: 10em;
+}
+
+}
+
+
 @media (max-width:700px) {
+  body{
+    background-color: purple;
+  }
+ /* start games  file       */
     .main__game {
         background-color: purple;
     }
+    #img__post--games {
+        height: 50vh;
+   }
+   
+   .div__info--post {
+    width: 40vw;
+    margin-left: 100px;
+   }
+
+    .lineSpecialties::after {
+    width: 30vw;
+    right: -31vw;
+   }
+   .container__title--comments {
+
+    h2 {
+        padding-left: 50px;
+        font-size: 20px;
+    }
 }
+/*   AllItems file    */
+.container__all--items{ 
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+}
+
+.container_all--card{
+    width: 60%;
+ }
+
+.card__all{ 
+   width: 50vw;
+}
+
+.card__all--img{
+    width: 50vw;
+ }
+/*   home file     */
+
+#img__icon--moment {
+    padding-left: 4em;
+}
+
+.container__general--items {
+    width: 100%;
+    gap: 90px;
+    height: 75vh;
+    margin-bottom: 5vh;
+ }
+
+ .container_card--general { 
+    height: 100vh;
+    max-height: 120vh;
+    
+ 
+     h1 {
+        padding-right: 40vw;
+    }
+}
+
+.btn__before--general{
+     width: 20vw;
+     height: 4vh;
+    
+}
+
+.btn__after--general{
+    width: 20vw;
+    height: 4vh;
+    
+}
+
+.card__general--img{ 
+    width: 25vw;
+    height: 20vh;
+}
+
+.card__general{
+     
+     button{
+         height: 20vh;
+        width: 30vw;
+      
+    }
+}
+
+
+
+}
+
+
+@media (max-width:414px) {
+
+  
+/*   home file     */
+
+#img__icon--moment {
+    padding-left: 2em;
+    height: 40vh;
+}
+
+.container__general--items {
+    width: 100%;
+    gap: 70px;
+    display: flex;
+    height: 75vh;
+    margin-bottom: 5vh;
+ }
+
+
+
+ }

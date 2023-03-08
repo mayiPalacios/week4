@@ -38,9 +38,9 @@ const AllCards = () => {
       <div className="container__all--items">
         {data &&
           data.map((item) => (
-            <div className="card__general">
+            <div className="card__all">
               <button>
-                <div className="card__general--img">
+                <div className="card__all--img">
                   <img alt="img__post" src={item.image} />
                 </div>
                 <span>{item.title}</span>
