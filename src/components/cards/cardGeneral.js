@@ -12,7 +12,7 @@ const CardGenerals = ({ setRoute }) => {
       setIsLoading(true);
       try {
         const request = await fetch(
-          `http://localhost:3000/posts?_page=${currentPage}&_limit=${itemsPerPage}`,
+          `https://eminent-incandescent-peripheral.glitch.me/posts?_page=${currentPage}&_limit=${itemsPerPage}`,
           {
             method: "GET",
             headers: { "Content-Type": "application/json" },
