@@ -9,7 +9,7 @@ const AllCards = () => {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        const request = await fetch(`http://localhost:3000/posts`, {
+        const request = await fetch(`https://eminent-incandescent-peripheral.glitch.me/posts`, {
           method: "GET",
           headers: { "Content-Type": "application/json" },
         });
