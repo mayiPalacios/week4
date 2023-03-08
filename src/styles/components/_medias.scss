@@ -2,9 +2,7 @@
 @media (max-width:1500px) {
 
     /* start  file games      */
- .main__game {
-        background-color: orange;
-    }
+
  #img__post--games {
        height: 80vh;
         width: 90vw;
@@ -21,17 +19,8 @@
 
 
 @media (max-width:1108px) {
-    body{
-     background-color: red;
-  }
-    body{
-        background-image: none;
-    }
       /* start  file games      */
-    .main__game {
-        background-color: red;
-    }
-
+  
    #img__post--games {
     height: 70vh;
         width: 90vw;
@@ -94,13 +83,10 @@
 
 @media (max-width:1000px) {
 body{
-     background-color: pink;
      width: 100%;
   }
   /* start   games  file    */
-  .main__game {
-        background-color: pink;
-    }
+
      #img__post--games {
         width: 90vw;
         height: 60vh;
@@ -210,13 +196,8 @@ body{
 
 
 @media (max-width:700px) {
-  body{
-    background-color: purple;
-  }
  /* start games  file       */
-    .main__game {
-        background-color: purple;
-    }
+    
     #img__post--games {
         height: 50vh;
    }
